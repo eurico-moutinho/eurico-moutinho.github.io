@@ -1,0 +1,21 @@
+section {
+    width:96%;
+    margin-top: 40px;
+}
+
+.img-port {
+    width: 25%;
+    min-width: 460px;
+}
+
+.description {
+    width: 90%;
+}
+
+.top-marg {
+    margin-top: 40px;
+}
+
+#form {
+    width: 400px;
+}
