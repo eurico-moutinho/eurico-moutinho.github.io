@@ -5,6 +5,27 @@ section {
     margin-right: auto;
 }
 
+#landing {
+    display: block;
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    padding-right: 15vw;
+    padding-top: 25vh;
+    width: 100vw;
+    height: 95vh;
+}
+
+.fs-1 {
+    margin-bottom: 40px;
+}
+
+.img-thumbnail {
+    width:250px;
+}
+
 .img-port {
     width: 40%;
     min-width: 350px;
