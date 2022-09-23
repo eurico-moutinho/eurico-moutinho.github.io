@@ -4,8 +4,8 @@ section {
 }
 
 .img-port {
-    width: 25%;
-    min-width: 460px;
+    width: 40%;
+    min-width: 350px;
 }
 
 .description {
@@ -17,5 +17,5 @@ section {
 }
 
 #form {
-    width: 400px;
+    width: 350px;
 }
