@@ -15,7 +15,7 @@ section {
 }
 
 .top-marg {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 #form {
@@ -25,3 +25,13 @@ section {
 .img-thumbnail {
     margin-bottom: 40px;
 }
+
+#contact {
+    display: flex;
+}
+
+@media only screen and (max-width: 767px){
+.projdesc {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}}
