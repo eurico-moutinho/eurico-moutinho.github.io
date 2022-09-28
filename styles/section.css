@@ -21,6 +21,7 @@ section {
 
 .fs-1 {
     margin-bottom: 40px;
+    border-right: 1px solid gray;
 }
 
 .img-thumbnail {

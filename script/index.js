@@ -15,6 +15,7 @@ window.onload = () => {
         sectc.style.display = 'none';
         secta.style.display = 'none';
         land.style.display = 'inline';
+        typeWriter()
     }
 };
 if (btnland) {
@@ -61,3 +62,13 @@ if (btnc) {
         }
     };
 }
+
+let i = 0;
+let txt ='Welcome to my page';
+function typeWriter() {
+    if (i < txt.length) {
+      document.getElementById("demo").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeWriter, 120);
+    }
+  }
