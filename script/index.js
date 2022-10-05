@@ -1,74 +1,77 @@
 "use strict";
-const btna = document.getElementById('aboutme');
-const btnp = document.getElementById('projects');
-const btnc = document.getElementById('contacts');
-const secta = document.getElementById('about');
-const sectp = document.getElementById('project');
-const sectc = document.getElementById('contact');
-const land = document.getElementById('landing');
-const btnland = document.getElementById('land');
-const nav = document.getElementById('navbar-toggler');
-const bar = document.getElementById('navbarNav');
+const btna = document.getElementById("aboutme");
+const btnp = document.getElementById("projects");
+const btnc = document.getElementById("contacts");
+const secta = document.getElementById("about");
+const sectp = document.getElementById("project");
+const sectc = document.getElementById("contact");
+const land = document.getElementById("landing");
+const btnland = document.getElementById("land");
+const nav = document.getElementById("navbar-toggler");
+const bar = document.getElementById("navbarNav");
+const title = document.getElementById("title1");
+
 window.onload = () => {
-    if (sectp && sectc && secta && land) {
-        sectp.style.display = 'none';
-        sectc.style.display = 'none';
-        secta.style.display = 'none';
-        land.style.display = 'inline';
-        typeWriter()
-    }
+  if (sectp && sectc && secta && land) {
+    sectp.style.display = "none";
+    sectc.style.display = "none";
+    secta.style.display = "none";
+    land.style.display = "inline";
+    typeWriter();
+  }
 };
-if (btnland) {
-    btnland.onclick = () => {
-        if (sectp && land) {
-            land.style.display = 'none';
-            sectp.style.display = 'inline';
-        }
-    };
-}
-if (btna) {
-    btna.onclick = () => {
-        if (sectp && sectc && secta && nav && bar && land) {
-            nav.classList.add('collapsed');
-            bar.classList.remove('show');
-            land.style.display = 'none';
-            sectp.style.display = 'none';
-            sectc.style.display = 'none';
-            secta.style.display = 'inline';
-        }
-    };
-}
-if (btnp) {
-    btnp.onclick = () => {
-        if (sectp && sectc && secta && nav && bar && land) {
-            nav.classList.add('collapsed');
-            bar.classList.remove('show');
-            land.style.display = 'none';
-            secta.style.display = 'none';
-            sectc.style.display = 'none';
-            sectp.style.display = 'inline';
-        }
-    };
-}
-if (btnc) {
-    btnc.onclick = () => {
-        if (sectp && sectc && secta && nav && bar && land) {
-            nav.classList.add('collapsed');
-            bar.classList.remove('show');
-            land.style.display = 'none';
-            secta.style.display = 'none';
-            sectp.style.display = 'none';
-            sectc.style.display = 'inline';
-        }
-    };
-}
 
 let i = 0;
-let txt ='Welcome to my page';
+let txt = "Welcome to my page";
 function typeWriter() {
-    if (i < txt.length) {
-      document.getElementById("demo").innerHTML += txt.charAt(i);
-      i++;
-      setTimeout(typeWriter, 120);
-    }
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, 80);
   }
+}
+
+if (btnland) {
+  btnland.onclick = () => {
+    if (sectp && land) {
+      land.style.display = "none";
+      sectp.style.display = "inline";
+    }
+  };
+}
+if (btna) {
+  btna.onclick = () => {
+    if (sectp && sectc && secta && nav && bar && land) {
+      nav.classList.add("collapsed");
+      bar.classList.remove("show");
+      land.style.display = "none";
+      sectp.style.display = "none";
+      sectc.style.display = "none";
+      secta.style.display = "inline";
+    }
+  };
+}
+if (btnp) {
+  btnp.onclick = () => {
+    if (sectp && sectc && secta && nav && bar && land) {
+      nav.classList.add("collapsed");
+      bar.classList.remove("show");
+      land.style.display = "none";
+      secta.style.display = "none";
+      sectc.style.display = "none";
+      sectp.style.display = "inline";
+    }
+  };
+}
+if (btnc) {
+  btnc.onclick = () => {
+    if (sectp && sectc && secta && nav && bar && land) {
+      nav.classList.add("collapsed");
+      bar.classList.remove("show");
+      land.style.display = "none";
+      secta.style.display = "none";
+      sectp.style.display = "none";
+      sectc.style.display = "inline";
+    }
+  };
+}
