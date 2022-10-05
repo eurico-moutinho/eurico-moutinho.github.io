@@ -69,3 +69,7 @@ section {
   color: rgba(85, 85, 85, 0.5) 0%;
   text-shadow: -2px 0 darkgray, 0 2px darkgray, 2px 0 darkgray, 0 -2px darkgray;
 }
+
+.title:hover {
+  font-size: 2.8em;
+}
