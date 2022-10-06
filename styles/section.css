@@ -1,9 +1,8 @@
 section {
   display: none;
   width: 80%;
+  margin: auto;
   margin-top: 40px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #landing {
@@ -28,6 +27,10 @@ section {
   width: 250px;
 }
 
+#project {
+  width: 100%;
+}
+
 .img-port {
   width: 30vh;
   min-width: 280px;
@@ -39,7 +42,9 @@ section {
 }
 
 .top-marg {
+  margin: auto;
   margin-top: 20px;
+  width: 80%;
 }
 
 #form {
@@ -59,6 +64,7 @@ section {
 
 .ptn {
   margin-bottom: 10px;
+  font-size: 0.8em;
 }
 
 .title {
@@ -66,10 +72,5 @@ section {
   position: absolute;
   font-size: 2.3em;
   font-weight: bolder;
-  color: rgba(85, 85, 85, 0.5) 0%;
   text-shadow: -2px 0 darkgray, 0 2px darkgray, 2px 0 darkgray, 0 -2px darkgray;
-}
-
-.title:hover {
-  font-size: 2.8em;
 }
