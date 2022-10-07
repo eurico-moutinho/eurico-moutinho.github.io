@@ -12,6 +12,7 @@ body {
 
 .navbar a,
 footer {
+  font-weight: bold;
   color: #c9ad7f;
 }
 
