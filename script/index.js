@@ -9,12 +9,22 @@ const btnland = document.getElementById("land");
 const nav = document.getElementById("navbar-toggler");
 const bar = document.getElementById("navbarNav");
 
+let i = 0;
+function Opac() {
+  if (i <= 1) {
+    document.getElementById("demo").style.opacity = i;
+    i += 0.02;
+    setTimeout(Opac, 40);
+  }
+}
+
 window.onload = () => {
   if (sectp && sectc && secta && land) {
     sectp.style.display = "none";
     sectc.style.display = "none";
     secta.style.display = "none";
     land.style.display = "inline";
+    Opac();
   }
 };
 

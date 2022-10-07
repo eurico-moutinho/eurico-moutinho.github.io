@@ -15,6 +15,7 @@ section {
 .fs-1 {
   margin-bottom: 40px;
   color: #c9ad7f;
+  opacity: 0;
 }
 
 #about {
