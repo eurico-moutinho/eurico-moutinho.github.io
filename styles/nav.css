@@ -3,7 +3,28 @@
 body {
   font-family: "Playfair Display", serif;
   margin: 0;
-  background: linear-gradient(to left, #eaeaea, #dbdbdb, #f2f2f2, #ada996);
+  background: linear-gradient(rgba(108, 85, 74, 0.6), rgba(108, 85, 74, 0.6)),
+    url("https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.navbar a,
+footer {
+  color: #c9ad7f;
+}
+
+.navbar,
+footer {
+  background: linear-gradient(
+    315deg,
+    rgba(90, 73, 70, 0.8) 0%,
+    rgba(214, 139, 99, 0.8) 25%,
+    rgba(152, 105, 87, 0.8) 50%,
+    rgba(88, 70, 69, 0.8) 75%,
+    rgba(108, 85, 74, 0.8) 100%
+  );
 }
 
 .navbar-toggler {

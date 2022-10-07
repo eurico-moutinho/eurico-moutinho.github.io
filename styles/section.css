@@ -7,20 +7,26 @@ section {
 
 #landing {
   display: block;
-  background-image: url("../images/bg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
   margin: 0;
   padding-right: 15vw;
   padding-top: 25vh;
-  width: 100vw;
-  height: 95vh;
 }
 
 .fs-1 {
   margin-bottom: 40px;
-  border-right: 1px solid gray;
+  border-right: 1px solid #e1e195;
+  color: #e1e195;
+}
+
+#about {
+  border-radius: 40px;
+  font-weight: bold;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  padding: 50px 50px;
 }
 
 .img-thumbnail {
@@ -42,13 +48,29 @@ section {
 }
 
 .top-marg {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
   margin: auto;
   margin-top: 20px;
   width: 80%;
 }
 
+#project h1 {
+  color: #c9ad7f;
+  font-weight: bold;
+}
+
 #form {
   width: 350px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  padding: 20px;
 }
 
 .img-thumbnail {
@@ -73,4 +95,8 @@ section {
   font-size: 2.3em;
   font-weight: bolder;
   text-shadow: -2px 0 darkgray, 0 2px darkgray, 2px 0 darkgray, 0 -2px darkgray;
+}
+
+.footer {
+  text-align: center;
 }
