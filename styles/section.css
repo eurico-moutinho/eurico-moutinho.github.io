@@ -29,6 +29,7 @@ section {
     rgba(255, 255, 255, 0.5) 100%
   );
   padding: 50px 50px;
+  max-width: 1200px;
 }
 
 .img-thumbnail {
