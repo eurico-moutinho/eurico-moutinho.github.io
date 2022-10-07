@@ -8,11 +8,13 @@ section {
 #landing {
   display: block;
   margin: 0;
-  padding-right: 15vw;
-  padding-top: 25vh;
+  padding-right: 10vw;
+  padding-top: 28vh;
 }
 
-.fs-1 {
+#demo {
+  font-weight: bold;
+  font-size: 50px;
   margin-bottom: 40px;
   color: #c9ad7f;
   opacity: 0;
@@ -35,6 +37,16 @@ section {
 
 #project {
   width: 100%;
+}
+
+#land {
+  background: linear-gradient(
+    320deg,
+    rgba(166, 155, 64, 1) 0%,
+    rgba(113, 109, 23, 1) 50%,
+    rgba(60, 72, 20, 1) 100%
+  );
+  color: #c9ad7f;
 }
 
 .img-port {
