@@ -100,3 +100,8 @@ section {
 .footer {
   text-align: center;
 }
+
+.footer a {
+  text-decoration: none;
+  color: #c9ad7f;
+}
