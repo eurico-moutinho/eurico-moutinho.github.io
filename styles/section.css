@@ -55,6 +55,7 @@ section {
   margin: auto;
   margin-top: 20px;
   width: 80%;
+  max-width: 1200px;
 }
 
 #project h1 {
