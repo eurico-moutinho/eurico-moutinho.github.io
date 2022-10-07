@@ -1,4 +1,3 @@
-"use strict";
 const btna = document.getElementById("aboutme");
 const btnp = document.getElementById("projects");
 const btnc = document.getElementById("contacts");
@@ -16,7 +15,6 @@ window.onload = () => {
     sectc.style.display = "none";
     secta.style.display = "none";
     land.style.display = "inline";
-    typeWriter();
   }
 };
 
@@ -37,16 +35,6 @@ function Size() {
       title[i].style.fontSize = "2.3em";
       img[i].style.width = "30vh";
     });
-  }
-}
-
-let i = 0;
-let txt = "Welcome to my page";
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("demo").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, 80);
   }
 }
 
