@@ -3,12 +3,11 @@ section {
   width: 80%;
   margin: auto;
   margin-top: 110px;
+  padding-bottom: 40px;
 }
 
 #landing {
-  display: block;
-  margin: 0;
-  padding-right: 10vw;
+  margin: auto;
   padding-top: 28vh;
 }
 
@@ -30,6 +29,7 @@ section {
   );
   padding: 50px 50px;
   max-width: 1200px;
+  margin-bottom: 40px;
 }
 
 .img-thumbnail {
@@ -85,6 +85,7 @@ section {
     rgba(255, 255, 255, 0.5) 100%
   );
   padding: 20px;
+  margin-bottom: 20px;
 }
 
 .img-thumbnail {
@@ -95,6 +96,9 @@ section {
   .projdesc {
     margin-top: 20px;
     margin-bottom: 30px;
+  }
+  #demo {
+    font-size: 25px;
   }
 }
 
