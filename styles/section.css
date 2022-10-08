@@ -42,10 +42,9 @@ section {
 
 #land {
   background: linear-gradient(
-    320deg,
-    rgba(166, 155, 64, 1) 0%,
-    rgba(113, 109, 23, 1) 50%,
-    rgba(60, 72, 20, 1) 100%
+    260deg,
+    rgba(85, 85, 85, 0.5) 0%,
+    rgba(0, 0, 0, 0.5) 100%
   );
   color: rgb(214, 139, 99, 0.8);
 }
