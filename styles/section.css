@@ -9,6 +9,14 @@ section {
 #landing {
   margin: auto;
   padding-top: 28vh;
+  opacity: 0;
+}
+
+#landing > p {
+  font-weight: bold;
+  color: #c9ad7f;
+  font-size: 20px;
+  margin-bottom: 50px;
 }
 
 #demo {
@@ -16,7 +24,6 @@ section {
   font-size: 50px;
   margin-bottom: 40px;
   color: #c9ad7f;
-  opacity: 0;
 }
 
 #about {
@@ -32,6 +39,11 @@ section {
   margin-bottom: 40px;
 }
 
+#about > p {
+  text-align: justify;
+  text-indent: 50px;
+}
+
 .img-thumbnail {
   width: 250px;
 }
@@ -43,8 +55,8 @@ section {
 #land {
   background: linear-gradient(
     260deg,
-    rgba(85, 85, 85, 0.5) 0%,
-    rgba(0, 0, 0, 0.5) 100%
+    rgba(85, 85, 85, 0.7) 0%,
+    rgba(0, 0, 0, 0.7) 100%
   );
   color: rgb(214, 139, 99, 0.8);
 }
@@ -60,6 +72,7 @@ section {
 }
 
 .top-marg {
+  display: block;
   background: linear-gradient(
     90deg,
     rgba(255, 255, 255, 0.5) 0%,
