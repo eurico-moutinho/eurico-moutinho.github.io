@@ -1,6 +1,7 @@
 section {
   display: none;
   width: 80%;
+  max-width: 1300px;
   margin: auto;
   margin-top: 110px;
   padding-bottom: 40px;
