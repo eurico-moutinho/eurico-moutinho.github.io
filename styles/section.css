@@ -98,6 +98,10 @@ code {
   margin-bottom: 40px;
 }
 
+textarea {
+  resize: none;
+}
+
 @media only screen and (max-width: 767px) {
   .projdesc {
     margin-top: 20px;
