@@ -34,11 +34,11 @@ function Size() {
   const img = document.getElementsByClassName("img-port");
   for (let i = 0; i < box.length; i++) {
     box[i].addEventListener("mouseover", () => {
-      box[i].style.width = "97.36%";
-      box[i].style.maxWidth = "1460px";
-      box[i].style.fontSize = "1.217em";
-      title[i].style.fontSize = "2.8em";
-      img[i].style.width = "36.5vh";
+      box[i].style.width = "88.8%";
+      box[i].style.maxWidth = "1332px";
+      box[i].style.fontSize = "1.11em";
+      title[i].style.fontSize = "2.553em";
+      img[i].style.width = "33.3vh";
     });
     box[i].addEventListener("mouseout", () => {
       box[i].style.width = "80%";
