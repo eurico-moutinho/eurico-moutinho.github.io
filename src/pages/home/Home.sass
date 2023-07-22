@@ -1,0 +1,74 @@
+@use '../../../sass' as ext
+
+#profile
+    height: 100dvh
+
+    h1
+        font-size: 2.5rem
+        color: ext.$light-gray
+        text-align: left
+        width: 80%
+        margin-top: 0
+
+    .subpro
+        width: 100%
+
+    img
+        width: 22rem
+
+    #description
+        display: grid
+        row-gap: 45px
+
+        code
+            color: white
+            background: linear-gradient(193deg, #313960 0%, #11152b 100%)
+
+            &:first-child, &:nth-child(2), &:last-child
+                width: fit-content
+
+            & *
+                font-size: 0.8rem
+
+            .variables
+                color: ext.$lighter-blue
+
+                span
+                    color: white
+
+            .obj
+                color: ext.$light-green
+
+            p
+                opacity: 0
+                white-space: nowrap
+                overflow: hidden
+
+            .typewriter
+                animation: typewriter 2s steps(40) forwards
+                animation-delay: 1s
+
+            @keyframes typewriter
+                from
+                    width: 0
+                    opacity: 1
+
+                to
+                    width: 100%
+                    opacity: 1
+
+            .typewriter2
+                animation: typewriter2 2s steps(40) forwards
+                animation-delay: 1s
+
+            @keyframes typewriter2
+                from
+                    width: 0
+                    opacity: 1
+
+                to
+                    width: 100%
+                    opacity: 1
+
+    @media ( max-height: 700px )
+        justify-content: flex-start

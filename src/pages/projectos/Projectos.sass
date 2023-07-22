@@ -1,0 +1,57 @@
+@use '../../../sass' as ext
+
+#projectTitle
+    text-align: center
+    color: ext.$light-gray
+    font-size: 3rem
+
+
+.cardList
+    max-width: 100vw
+    display: grid
+    grid-template-columns: repeat(auto-fit, 350px)
+    grid-gap: 50px
+    
+    .card
+        line-height: 1.5
+        height: 420px
+        border-radius: 10px
+        background-color: ext.$dark-blue
+        -webkit-box-shadow: 0 0 15px ext.$light-gray
+        -moz-box-shadow: 0 0 15px ext.$light-gray
+        box-shadow: 0 0 15px ext.$light-gray
+
+        legend
+            font-size: 1.2em
+            color: ext.$light-green
+
+        img
+            width: 100%
+
+        .icons
+            color: ext.$dark-green
+
+        p
+            margin-bottom: 10px
+            color: white
+            font-size: 0.8em
+            text-align: justify
+
+            @media ( max-width: 450px )
+                font-size: 1em                
+
+        .links
+            width: 100%
+            margin-top: auto
+
+            a
+                width: 100px
+                text-align: center
+                color: ext.$light-blue
+                text-decoration: none
+                border: 1px solid ext.$light-blue
+                border-radius: 10px
+
+                &:hover
+                    background-color: ext.$light-blue
+                    color: ext.$light-gray
