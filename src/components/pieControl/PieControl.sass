@@ -1,0 +1,110 @@
+@use '../../../sass' as ext
+
+$max-width-menu: 170px
+
+.pieContainer
+    position: absolute
+    top: 50%
+    left: 0
+    height: auto
+    z-index: 1
+
+    .pieButton
+        z-index: 3
+        position: absolute
+        width: 50px
+        height: 100px
+        background-color: ext.$dark-green
+        border-radius: 0 50px 50px 0
+
+        &:hover + .pieMenu
+            width: $max-width-menu
+
+            .slice
+                width: $max-width-menu
+
+        span
+            color: ext.$dark-blue
+            font-size: 0.8rem
+            font-weight: bolder
+            margin-right: 20px
+            cursor: default
+
+    .pieMenu
+        list-style: none
+        padding: 0
+        margin: 0
+        position: absolute
+        top: 50px
+        left: 0px
+        width: 50px
+        height: 0px
+        z-index: 2
+
+        &:hover
+            width: $max-width-menu
+            height: 400px
+            top: -150px
+
+            .slice
+                width: $max-width-menu
+
+        .slice
+            width: 50px
+            position: absolute
+            transition: width 0.5s
+
+            a
+                text-decoration: none
+                height: 50px
+                width: 50px
+                border-radius: 25px
+                background-color: ext.$dark-green
+                color: ext.$dark-blue
+                z-index: 2
+
+                &:hover
+                    background-color: ext.$light-blue
+                    color: ext.$light-gray
+
+            &:first-child
+                transform-origin: left center
+                transform: rotate(-75deg)
+
+                a
+                    transform: rotate(75deg)
+
+            &:nth-child(2)
+                transform-origin: left center
+                transform: rotate(-45deg)
+
+                a
+                    transform: rotate(45deg)
+
+            &:nth-child(3)
+                transform-origin: left center
+                transform: rotate(-15deg)
+
+                a
+                    transform: rotate(15deg)
+
+            &:nth-child(4)
+                transform-origin: left center
+                transform: rotate(15deg)
+
+                a
+                    transform: rotate(-15deg)
+
+            &:nth-child(5)
+                transform-origin: left center
+                transform: rotate(45deg)
+
+                a
+                    transform: rotate(-45deg)
+
+            &:last-child
+                transform-origin: left center
+                transform: rotate(75deg)
+
+                a
+                    transform: rotate(-75deg)

@@ -1,0 +1,31 @@
+@use '../sass' as ext
+
+*
+  padding: 0px
+  margin: 0px
+  font-size: 20px
+  @media (max-width: 480px)
+    font-size: 12px
+  @media (min-width: 481px) and (max-width: 920px)
+    font-size: 14px
+  @media (min-width: 921px) and (max-width: 1199px)
+    font-size: 16px
+  @media (min-width: 1200px) and (max-width: 1919px)
+    font-size: 18px
+
+body
+  position: relative
+  font-family: 'Playfair Display', BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  height: 100dvh
+  width: 100%
+  display: inline-block
+  background-color: ext.$dark-blue
+  background-image: url(../public/images/background.png)
+  background-size: cover
+  background-repeat: no-repeat
+  background-position-x: center
+
+code
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace
