@@ -22,6 +22,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+<<<<<<< HEAD
+=======
+    "predeploy": "npm run build",
+    "deploy": "touch ./master/.nojekyll && gh-pages -b master -d build",
+>>>>>>> parent of b8f5649 (Update package.json)
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
