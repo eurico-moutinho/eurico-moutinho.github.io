@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/eurico-moutinho.github.io/static/css/main.613e9ad8.css",
-    "main.js": "/eurico-moutinho.github.io/static/js/main.66cb13de.js",
-    "static/js/787.dbc03e81.chunk.js": "/eurico-moutinho.github.io/static/js/787.dbc03e81.chunk.js",
-    "static/media/background.png": "/eurico-moutinho.github.io/static/media/background.05097caa7144b21e419d.png",
-    "index.html": "/eurico-moutinho.github.io/index.html",
-    "main.613e9ad8.css.map": "/eurico-moutinho.github.io/static/css/main.613e9ad8.css.map",
-    "main.66cb13de.js.map": "/eurico-moutinho.github.io/static/js/main.66cb13de.js.map",
-    "787.dbc03e81.chunk.js.map": "/eurico-moutinho.github.io/static/js/787.dbc03e81.chunk.js.map"
+    "main.css": "/static/css/main.846a9087.css",
+    "main.js": "/static/js/main.23d6b483.js",
+    "static/js/787.dbc03e81.chunk.js": "/static/js/787.dbc03e81.chunk.js",
+    "static/media/background.png": "/static/media/background.05097caa7144b21e419d.png",
+    "index.html": "/index.html",
+    "main.846a9087.css.map": "/static/css/main.846a9087.css.map",
+    "main.23d6b483.js.map": "/static/js/main.23d6b483.js.map",
+    "787.dbc03e81.chunk.js.map": "/static/js/787.dbc03e81.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.613e9ad8.css",
-    "static/js/main.66cb13de.js"
+    "static/css/main.846a9087.css",
+    "static/js/main.23d6b483.js"
   ]
 }
