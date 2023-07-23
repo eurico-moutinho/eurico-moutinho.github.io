@@ -1,0 +1,40 @@
+@use '../../../sass' as ext
+
+.aboutMe
+    height: 100dvh
+
+    img
+        width: 20rem
+        filter: drop-shadow(5px 5px 10px ext.$dark-green)
+
+    .firstField
+        width: fit-content
+
+    fieldset
+        background: linear-gradient(193deg, #313960 0%, #11152b 100%)
+
+        legend
+            font-size: 1.2em
+            color: ext.$light-gray
+
+        #pitch
+            max-width: 50rem
+            text-align: justify
+            text-indent: 50px            
+
+        code
+            display: inline-block
+            font-size: 0.9rem
+            color: white
+
+            span, p
+                font-size: 1em
+
+    .extraList
+        display: grid
+        grid-template-columns: 1fr 1fr
+        column-gap: 50px
+        max-width: calc(50rem + 65px)
+
+        code
+            line-height: 1.5
