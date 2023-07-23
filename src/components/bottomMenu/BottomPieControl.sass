@@ -1,0 +1,85 @@
+@use '../../../sass' as ext
+
+.bottomContainer
+    position: fixed
+    bottom: 0
+    right: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    
+    .BottomPieControl
+        z-index: 3
+        position: fixed
+        bottom: 0
+        transform: translate(-50%, -50%)
+        background-color: ext.$dark-green
+        height: 50px
+        width: 50px
+        border-radius: 25px
+
+    .bottomMenu
+        position: absolute
+        list-style: none
+        border: 1px solid black
+        bottom: 30px
+
+        .choice.expanded
+            width: 110px
+            transition: width 0.5s
+
+        .choice
+            position: absolute
+            bottom: 0px
+            width: 10px            
+            transition: width 0.5s
+
+            a
+                background-color: ext.$dark-green
+                color: ext.$dark-blue
+                text-decoration: none
+                z-index: 2
+                height: 40px
+                width: 40px
+                border-radius: 20px
+
+            &:first-child
+                    transform-origin: left center
+                    transform: rotate(-180deg)
+
+                    a
+                        transform: rotate(180deg)
+
+            &:nth-child(2)
+                transform-origin: left center
+                transform: rotate(-144deg)
+
+                a
+                    transform: rotate(144deg)
+
+            &:nth-child(3)
+                transform-origin: left center
+                transform: rotate(-108deg)
+
+                a
+                    transform: rotate(108deg)
+
+            &:nth-child(4)
+                transform-origin: left center
+                transform: rotate(-72deg)
+
+                a
+                    transform: rotate(72deg)
+
+            &:nth-child(5)
+                transform-origin: left center
+                transform: rotate(-36deg)
+
+                a
+                    transform: rotate(36deg)
+
+            &:last-child
+                transform-origin: left center
+                transform: rotate(0deg)
+
+                a
+                    transform: rotate(-0deg)
