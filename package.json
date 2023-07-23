@@ -23,7 +23,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "touch ./gh-pages/.nojekyll && gh-pages -d gh-pages -t true",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
