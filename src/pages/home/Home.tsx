@@ -36,7 +36,7 @@ const Home: React.FC = () => {
   return (
     <>
     <div id="profile" className="flex flex-column justify-content-center align-items-center">
-      <h1 className="my50 ml20">Hi,<span><br/></span>welcome to my corner of the internet</h1>
+      <h1 className="mb50 ml20 mt-xsm80 mt-sm80">Hi,<span><br/></span>welcome to my corner of the internet</h1>
       <div className="flex justify-content-evenly align-items-center flex-wrap subpro">
         <div id="description">
           <code className="p30">
