@@ -4,7 +4,7 @@
         display: none
 
     @mixin padding-classes
-    @for $i from 0 through 50
+    @for $i from 0 through 100
         $padding: $i * 1px
 
         .p-sm#{$i}
@@ -33,7 +33,7 @@
     @include padding-classes
 
     @mixin margin-classes
-    @for $i from 0 through 50
+    @for $i from 0 through 100
         $margin: $i * 1px
         /* margin #{$margin} */
         .m-sm#{$i}
