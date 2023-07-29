@@ -2,6 +2,7 @@ import React from 'react';
 import './Projectos.sass';
 import axios from "axios";
 import { useState, useEffect } from "react";
+import AnimatedPage from '../../components/animatedPage/AnimatedPage';
 
 const Projectos = () => {
 
@@ -38,7 +39,7 @@ const Projectos = () => {
   }, []);
 
   return (
-    <>
+    <AnimatedPage>
       <h1 id='projectTitle' className='my50'>Projects</h1>
 
       <section className="cardList justify-content-center pb-xsm50">
@@ -66,7 +67,7 @@ const Projectos = () => {
 
         })}
       </section>
-    </>
+      </AnimatedPage>
   );
 }
 

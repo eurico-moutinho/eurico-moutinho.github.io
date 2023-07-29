@@ -6,6 +6,7 @@ import Projectos from './pages/projectos/Projectos';
 import PieControl from './components/pieControl/PieControl';
 import BottomPieControl from './components/bottomMenu/BottomPieControl';
 import AboutMe from './pages/about/AboutMe';
+import { AnimatePresence } from 'framer-motion'
 
 function App() {
   return (
@@ -13,11 +14,13 @@ function App() {
       <Router>
         <PieControl />
         <BottomPieControl />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projectos />} />
-          <Route path="/about" element={<AboutMe />} />
-        </Routes>
+        <AnimatePresence>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<Projectos />} />
+            <Route path="/about" element={<AboutMe />} />
+          </Routes>
+        </AnimatePresence>
       </Router>
     </>
   );
