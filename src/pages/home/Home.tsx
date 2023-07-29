@@ -47,6 +47,18 @@ const Home: React.FC = () => {
             <p className="variables typewriter ml15"><span>Lastname:</span> 'Moutinho'</p>
             <br/>
             <p className="typewriter">&#125;;</p>
+
+            <div className="mouse-position-tracker">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
           </code>
           <code className="p30 ml100 ml-sm50 ml-xsm0">
             <p className="typewriter2"><span className="obj">What_am_I</span> = &#123;</p>
@@ -56,6 +68,18 @@ const Home: React.FC = () => {
             <p className="variables typewriter2 ml15"><span>Education:</span> 'Master degree'</p>
             <br/>
             <p className="typewriter2">&#125;;</p>
+
+            <div className="mouse-position-tracker">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
           </code>
         </div>
         <img src="../../images/photo-no-background.png" alt="profile" className="mx50 mb50"/>

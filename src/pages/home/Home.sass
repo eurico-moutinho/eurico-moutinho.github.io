@@ -23,10 +23,19 @@
         row-gap: 45px
 
         code
+            --perspective: 600px
+            --rotateX: 0deg
+            --rotateY: 0deg
+            --angle: 10deg
+
             color: white
             background: linear-gradient(193deg, #313960 0%, #11152b 100%)
+            position: relative
+            display: grid
+            transform: perspective(var(--perspective)) rotateX(var(--rotateX)) rotateY(var(--rotateY))
+            transition: transform 350ms ease
 
-            &:first-child, &:nth-child(2), &:last-child
+            &:first-child, &:nth-child(2)
                 width: fit-content
 
             & *
@@ -71,6 +80,63 @@
                 to
                     width: 100%
                     opacity: 1
+
+            .mouse-position-tracker
+                position: absolute
+                inset: 0
+
+                div
+                    position: absolute
+                    width: calc(100% / 3)
+                    height: calc(100% / 3)
+                    z-index: 2
+
+                    &:nth-of-type(3n-2)
+                        left: 0
+                    
+                    &:nth-of-type(3n-1)
+                        left: calc(100% / 3)
+
+                    &:nth-of-type(3n)
+                        right: 0
+
+                    &:nth-child(n+1):nth-child(-n+3)
+                        top: 0
+
+                    &:nth-child(n+4):nth-child(-n+6)
+                        top: calc(100% / 3)
+
+                    &:nth-child(n+7):nth-child(-n+9)
+                        bottom: 0
+
+        code:has(.mouse-position-tracker > div:first-child:hover)
+            --rotateX: var(--angle)
+            --rotateY: calc(var(--angle) * -1)
+
+        code:has(.mouse-position-tracker > div:nth-child(2):hover)
+            --rotateX: var(--angle)
+        
+        code:has(.mouse-position-tracker > div:nth-child(3):hover)
+            --rotateX: var(--angle)
+            --rotateY: var(--angle)
+
+        code:has(.mouse-position-tracker > div:nth-child(4):hover)
+            --rotateY: calc(var(--angle) * -1)
+
+        code:has(.mouse-position-tracker > div:nth-child(6):hover)
+            --rotateY: var(--angle)
+
+        code:has(.mouse-position-tracker > div:nth-child(7):hover)
+            --rotateX: calc(var(--angle) * -1)
+            --rotateY: calc(var(--angle) * -1)
+
+        code:has(.mouse-position-tracker > div:nth-child(8):hover)
+            --rotateX: calc(var(--angle) * -1)
+
+        code:has(.mouse-position-tracker > div:nth-child(9):hover)
+            --rotateX: calc(var(--angle) * -1)
+            --rotateY: var(--angle)
+                        
 
     @media ( max-height: 700px )
         justify-content: flex-start
