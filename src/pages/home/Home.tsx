@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import './Home.sass'
+import './Home.sass';
 import AnimatedPage from '../../components/animatedPage/AnimatedPage';
 
 const Home: React.FC = () => {
