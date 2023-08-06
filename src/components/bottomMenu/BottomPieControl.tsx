@@ -46,7 +46,7 @@ const BottomPieControl: React.FC = () => {
 
             <li className={`choice flex justify-content-end ${isExpanded ? 'expanded' : ''}`}>
                 <a href="https://twitter.com/YuriYung" target="_blank" rel="noreferrer" title="Twitter" className="flex justify-content-center align-items-center" onClick={handleControlClick}>
-                    <i className="fa-brands fa-twitter fa-fw fa-xl"></i>
+                    <i className="fa-brands fa-x-twitter fa-fw fa-xl"></i>
                 </a>                
             </li>
 

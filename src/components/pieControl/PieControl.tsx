@@ -15,7 +15,7 @@ const PieControl = () => {
 
           <li className='slice flex justify-content-end'>
             <a href="https://twitter.com/YuriYung" target="_blank" rel="noreferrer" title="Twitter" className="flex justify-content-center align-items-center">
-                <i className="fa-brands fa-twitter fa-fw fa-xl"></i>
+                <i className="fa-brands fa-x-twitter fa-fw fa-xl"></i>
             </a>
           </li>
 
