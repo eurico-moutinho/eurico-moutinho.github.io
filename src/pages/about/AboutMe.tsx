@@ -6,7 +6,7 @@ import AnimatedPage from '../../components/animatedPage/AnimatedPage';
 const AboutMe = () => {
   return (
     <AnimatedPage>
-      <div className="aboutMe flex flex-column justify-content-center align-items-center py-xsm40">
+      <div className="aboutMe flex flex-column justify-content-center align-items-center">
 
         <img src='../../images/about.png' alt='about' className='mb20'/>
 
@@ -47,6 +47,15 @@ const AboutMe = () => {
           </fieldset>
 
         </div>
+
+        <fieldset id="contacts" className='p30 mt30'>
+          <legend>Contacts</legend>
+
+          <code>
+            Email: <a href="mailto:eurico_moutinho@yahoo.co.uk">eurico_moutinho@yahoo.co.uk</a>
+          </code>
+
+        </fieldset>
           
       </div>
     </AnimatedPage>
