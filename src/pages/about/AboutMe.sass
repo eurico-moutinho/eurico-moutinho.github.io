@@ -35,11 +35,22 @@
                 font-size: 1em
 
             a
+                position: relative
                 text-decoration: none
-                color: ext.$light-green
+                color: ext.$light-gray
 
-                &:hover
-                    color: ext.$dark-green
+                &::before
+                    position: absolute
+                    color: ext.$light-green
+                    top: 0
+                    left: 0
+                    width: 0
+                    content: attr(data-content)    
+                    overflow: hidden
+                    transition: width 1s ease               
+
+                &:hover::before
+                    width: 100%
 
     .extraList
         display: grid

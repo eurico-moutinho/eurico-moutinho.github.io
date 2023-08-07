@@ -52,7 +52,7 @@ const AboutMe = () => {
           <legend>Contacts</legend>
 
           <code>
-            Email: <a href="mailto:eurico_moutinho@yahoo.co.uk">eurico_moutinho@yahoo.co.uk</a>
+            Email: <a href="mailto:eurico_moutinho@yahoo.co.uk" data-content="eurico_moutinho@yahoo.co.uk">eurico_moutinho@yahoo.co.uk</a>
           </code>
 
         </fieldset>
