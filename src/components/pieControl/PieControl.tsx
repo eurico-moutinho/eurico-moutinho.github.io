@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 import './PieControl.sass'
 
-const PieControl = () => {
+const PieControl: React.FC = () => {
     return (
 
       <main className="pieContainer mobile-hidden tablet-hidden">
