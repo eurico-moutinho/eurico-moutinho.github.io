@@ -13,11 +13,11 @@ const PieControl: React.FC = () => {
 
       <ul className="pieMenu flex flex-column justify-content-center">
 
-        <li className='slice flex justify-content-end'>
+        {/* <li className='slice flex justify-content-end'>
           <a href="https://twitter.com/YuriYung" target="_blank" rel="noreferrer" title="X.com" className="flex justify-content-center align-items-center">
             <i className="fa-brands fa-x-twitter fa-fw fa-xl"></i>
           </a>
-        </li>
+        </li> */}
 
         <li className='slice flex justify-content-end'>
           <a href="https://www.linkedin.com/in/eurico-yung-moutinho/" target="_blank" rel="noreferrer" title="Linkedin" className="flex justify-content-center align-items-center">
