@@ -40,6 +40,7 @@ const Template = () => {
               Back-End: &nbsp;
               <span><i className="fa-brands fa-node-js"></i>NodeJS/ExpressJS </span>
               <span><i class="fa-brands fa-php"></i>PHP </span>
+              <span><i class="fa-brands fa-python"></i>Python/Django </span>
             </span><br/><br/>
 
             <span>
