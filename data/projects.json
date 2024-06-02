@@ -1,52 +1,6 @@
 
       [
         {
-          "title": "TankTop",
-          "year": "2022",
-          "image": "../../images/tanktop.png",
-          "languages": [
-            {
-            "class": "fa-brands fa-html5 fa-fw",
-            "title": "HTML"
-            },
-            {
-              "class": "fa-brands fa-css3-alt fa-fw",
-              "title": "CSS"
-            },
-            {
-              "class": "fa-brands fa-js fa-fw",
-              "title": "JavaScript"
-            }
-          ],
-          "with": "One person project",
-          "description": "Project made after 3 weeks in the Ironhack bootcamp Just a small game using canvas.",
-          "deployLink": "https://eurico-moutinho.github.io/Tank-Top/",
-          "githubLink": "https://github.com/eurico-moutinho/Tank-Top"
-        },
-        {
-          "title": "Food War",
-          "year": "2022",
-          "image": "../../images/foodwar.png",
-          "languages": [
-            {
-            "class": "fa-brands fa-node-js fa-fw",
-            "title": "NodeJS/ExpressJS"
-            },
-            {
-              "class": "fa-brands fa-bootstrap fa-fw",
-              "title": "Bootstrap"
-            },
-            {
-              "class": "fa-solid fa-leaf fa-fw",
-              "title": "MongoDB"
-            }
-          ],
-          "with": "Group of 2 people project",
-          "description": "Project made after 6 weeks in the Ironhack bootcamp Food Wars is a recipe blog app.",
-          "deployLink": "https://food-wars.onrender.com/",
-          "githubLink": "https://github.com/eurico-moutinho/food-wars"
-        },
-        {
           "title": "Jobsomely",
           "year": "2022",
           "image": "../../images/jobsomely.png",
@@ -74,22 +28,13 @@
           "githubLink": "https://github.com/alikedo/Job-somely-app"
         },
         {
-          "title": "JS Massagem",
-          "year": "2022",
-          "image": "../../images/js-massagem.png",
-          "languages": [
-            {
-              "class": "fa-brands fa-css3-alt fa-fw",
-              "title": "CSS"
-            },
-            {
-              "class": "fa-brands fa-react fa-fw",
-              "title": "ReactJS"
-            }
-          ],
-          "with": "Small freelance work",
-          "description": "Simple webpage for a massage and therapy center",
-          "deployLink": "https://js-massagem.vercel.app/",
-          "githubLink": "https://github.com/eurico-moutinho/JSmassagem"
+          "title": "Animations",
+          "year": "",
+          "image": "../../images/animations.png",
+          "languages": [],
+          "with": "",
+          "description": "Few animations I can make",
+          "deployLink": "https://animations-opal.vercel.app/",
+          "githubLink": "https://github.com/eurico-moutinho/animations"
         }
       ]
