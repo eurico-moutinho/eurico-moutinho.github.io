@@ -3,11 +3,18 @@ import { Icon } from '@iconify/react';
 const Template = () => {
     return(
 
-        <div className="aboutMe flex flex-column justify-content-center align-items-center">
+        <div className="
+                  aboutMe
+                  flex
+                  flex-column
+                  justify-content-center
+                  align-items-center
+                  px20
+                  ">
 
         <img src='../../images/about.png' alt='about' className='mb20'/>
 
-        <fieldset className='p30 firstField mx20'>
+        <fieldset className='p30 firstField'>
           <legend>About Me</legend>
 
           <code id="pitch">
@@ -16,26 +23,37 @@ const Template = () => {
 
         </fieldset>
 
-        <div className="extraList mt25 mx20">
+        <fieldset className='py20 px30'>
+          <legend>Skillset</legend>
 
-          <fieldset className='p20'>
-            <legend>Skillset</legend>
-
-            <code>
+          <code id="skills">
+            <span>
+              Front-End: &nbsp;
               <span><i className="fa-brands fa-html5"></i>HTML5 </span>
               <span><i className="fa-brands fa-css3-alt"></i>CSS3 </span>
               <span><i className="fa-brands fa-js"></i>Javascript </span>
-              <span><i className="fa-brands fa-react"></i>ReactJS </span>
-              <span><Icon icon="simple-icons:mongodb" />MongoDB </span>
-              <span><Icon icon="devicon-plain:mysql" />MySQL </span>
+              <span><Icon icon="simple-icons:typescript" />Typescript </span>
+              <span><i className="fa-brands fa-react"></i>ReactJS/NextJS </span>
+            </span><br/><br/>
+
+            <span>
+              Back-End: &nbsp;
               <span><i className="fa-brands fa-node-js"></i>NodeJS/ExpressJS </span>
               <span><i class="fa-brands fa-php"></i>PHP </span>
-              <span><Icon icon="simple-icons:typescript" />Typescript </span>
-            </code>
+            </span><br/><br/>
 
-          </fieldset>
+            <span>
+              Data Base: &nbsp;
+              <span><Icon icon="simple-icons:mongodb" />MongoDB </span>
+              <span><Icon icon="devicon-plain:mysql" />MySQL </span>
+            </span>
+          </code>
 
-          <fieldset className='p30'>
+        </fieldset>
+
+        <div className="extraList">
+
+          <fieldset className='py15 px30'>
             <legend>Hobbies</legend>
 
             <code>
@@ -45,16 +63,16 @@ const Template = () => {
 
           </fieldset>
 
+          <fieldset id="contacts" className='py20 px30'>
+            <legend>Contacts</legend>
+
+            <code>
+              Email: <a href="mailto:eurico_moutinho@yahoo.co.uk" data-content="eurico_moutinho@yahoo.co.uk">eurico_moutinho@yahoo.co.uk</a>
+            </code>
+
+          </fieldset>
+
         </div>
-
-        <fieldset id="contacts" className='p30 mt30'>
-          <legend>Contacts</legend>
-
-          <code>
-            Email: <a href="mailto:eurico_moutinho@yahoo.co.uk" data-content="eurico_moutinho@yahoo.co.uk">eurico_moutinho@yahoo.co.uk</a>
-          </code>
-
-        </fieldset>
           
       </div>
 

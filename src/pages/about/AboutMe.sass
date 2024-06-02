@@ -2,6 +2,9 @@
 
 .aboutMe
     overflow: auto
+    width: fit-content
+    margin: 0 auto 100px
+    gap: 20px
 
     img
         width: 20rem
@@ -21,10 +24,6 @@
             max-width: 50rem
             text-align: justify
             text-indent: 50px
-
-        #contacts
-            max-width: calc(50rem + 65px)
-            width: 100%
 
         code
             display: inline-block
@@ -57,6 +56,12 @@
         grid-template-columns: 1fr 1fr
         column-gap: 50px
         max-width: calc(50rem + 65px)
+        width: 100%
 
         code
             line-height: 1.5
+
+        @media(max-width: 768px)
+            display: flex
+            flex-direction: column
+            gap: 20px
